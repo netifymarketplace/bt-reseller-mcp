@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.netifymarketplace/bt-reseller",
+  "description": "Callable surface for the Netify BT-Authorised Reseller Programme. Lets agents query programme details, score reseller eligibility against BT criteria, model commission, and construct prefilled application URLs for UK businesses wanting to resell BT broadband, leased lines, SD-WAN, SASE and security products.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/netifymarketplace/bt-reseller-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://www.netify.co.uk/resell/bt-business-services/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.netify.co.uk/resell/bt-business-services/mcp/"
+    }
+  ]
+}
